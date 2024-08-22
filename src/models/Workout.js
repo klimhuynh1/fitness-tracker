@@ -43,11 +43,11 @@ workoutSchema.pre("validate", async function (next) {
   await this.populate("exercises.exerciseId");
 
   for (const exercise of this.exercises) {
-    const exerciseType = exercise.exerciseId.type;
+    const exerciseCategory = exercise.exerciseId.category;
     const exerciseSets = exercise.sets;
 
     for (const set of exerciseSets) {
-      switch (exerciseType) {
+      switch (exerciseCategory) {
         case "barbell":
         case "dumbbell":
         case "machine":
