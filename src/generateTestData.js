@@ -28,13 +28,15 @@ mongoose
 
     // Create test exercises
     const exercise1 = new Exercise({
-      type: "barbell",
       name: "Barbell Squat",
+      category: "barbell",
+      bodyPart: "legs",
       description: "A basic barbell squat exercise",
     });
     const exercise2 = new Exercise({
-      type: "cardio",
       name: "Running",
+      category: "cardio",
+      bodyPart: "cardio",
       description: "Cardio exercise running",
     });
     await exercise1.save();

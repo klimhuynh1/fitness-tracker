@@ -51,6 +51,7 @@ workoutSchema.pre("validate", async function (next) {
         case "barbell":
         case "dumbbell":
         case "machine":
+        case "other":
           // Ensure only weight and reps are used
           if (
             set.duration_seconds ||
