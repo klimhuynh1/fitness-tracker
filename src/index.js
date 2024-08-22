@@ -1,60 +1,34 @@
 require("dotenv").config();
+const express = require("express");
 const mongoose = require("mongoose");
-const User = require("./models/User");
-const Workout = require("./models/Workout");
+const userRoutes = require("./routes/userRoutes");
+const workoutRoutes = require("./routes/workoutRoutes");
+const exerciseRoutes = require("./routes/exerciseRoutes");
 
 // Get MongoDB URI from environment variables
 const mongoURI = process.env.MONGO_URI;
 
+// Initialize Express app
+const app = express();
+
+// Middleware
+app.use(express.json()); // For parsing application/json
+
+// Routes
+app.use("/api/users", userRoutes);
+app.use("/api/workouts", workoutRoutes);
+app.use("/api/exercises", exerciseRoutes);
+
 // Connect to MongoDB
 mongoose
   .connect(mongoURI)
-  .then(async () => {
+  .then(() => {
     console.log("Database connected");
-
-    // Create a new user
-    const newUser = new User({
-      username: "john_doe",
-      email: "john@example.com",
-      password: "password", // This will be hashed before saving
+    // Start the server
+    app.listen(3000, () => {
+      console.log("Server running on port 3000");
     });
-
-    await newUser.save();
-    console.log("User created");
-
-    // Create a new workout
-    const newWorkout = new Workout({
-      userId: newUser._id, // Link to the user
-      date: new Date(),
-      notes: "Hard workout session",
-      exercises: [
-        {
-          type: "barbell",
-          description: "Barbell Bench Press",
-          sets: [
-            { weight: 100, reps: 10 },
-            { weight: 110, reps: 8 },
-          ],
-        },
-        {
-          type: "cardio",
-          description: "Running",
-          sets: [{ distance: 5.0, duration_seconds: 1800 }],
-        },
-        {
-          type: "duration",
-          description: "Plank",
-          sets: [{ duration_seconds: 120 }],
-        },
-      ],
-    });
-
-    await newWorkout.save();
-    console.log("Workout created");
   })
   .catch((err) => {
     console.error("Database connection error:", err);
-  })
-  .finally(() => {
-    mongoose.disconnect();
   });

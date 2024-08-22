@@ -1,14 +1,15 @@
 const mongoose = require("mongoose");
-const Schema = mongoose.Schema;
 const bcrypt = require("bcrypt");
 const SALT_ROUNDS = parseInt(process.env.BCRYPT_SALT_ROUNDS, 10);
 
-const UserSchema = new Schema({
-  username: { type: String, required: true },
-  email: { type: String, required: true },
-  password: { type: String, required: true },
-  created_at: { type: Date, default: Date.now },
-});
+const UserSchema = new mongoose.Schema(
+  {
+    username: { type: String, required: true },
+    email: { type: String, required: true },
+    password: { type: String, required: true },
+  },
+  { timestamps: true }
+);
 
 // Pre-save hook to hash the password before saving the user document
 UserSchema.pre("save", async function (next) {
