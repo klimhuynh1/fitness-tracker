@@ -1,0 +1,1592 @@
+[
+  {
+    "Name": "Ab Wheel",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Aerobics",
+    "Category": "Duration",
+    "Muscle": "Cardio",
+    "Instructions": ""
+  },
+  {
+    "Name": "Arnold Press (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Around The World",
+    "Category": "Dumbbell",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Back Extension",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Back Squat (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Backwards Sled (Cable)",
+    "Category": "Other",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Ball Slams",
+    "Category": "Other",
+    "Muscle": "Full Body",
+    "Instructions": ""
+  },
+  {
+    "Name": "Battle Ropes",
+    "Category": "Other",
+    "Muscle": "Cardio",
+    "Instructions": ""
+  },
+  {
+    "Name": "Bench Dip",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Bench Press - Close Grip (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Bench Press - Wide Grip (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Bench Press (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Bench Press (Cable)",
+    "Category": "Other",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Bench Press (Smith Machine)",
+    "Category": "Other",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Bent Over One Arm Row (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Bent Over Row - Underhand (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Bent Over Row (Band)",
+    "Category": "Other",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Bent Over Row (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Bent Over Row (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Bicep Curl (Band)",
+    "Category": "Other",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Bicep Curl (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Bicep Curl (Cable)",
+    "Category": "Other",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Bicep Curl (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Bicep Curl (Machine)",
+    "Category": "Machine",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Bicycle Crunch",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Box Jump",
+    "Category": "Other",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Box Squat (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Bulgarian Split Squat",
+    "Category": "Other",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Bulgarian Split Squat (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Burpee",
+    "Category": "Other",
+    "Muscle": "Full Body",
+    "Instructions": ""
+  },
+  {
+    "Name": "Cable Crossover",
+    "Category": "Other",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Cable Crunch",
+    "Category": "Other",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Cable Kickback",
+    "Category": "Other",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Cable Pull Through",
+    "Category": "Other",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Cable Twist",
+    "Category": "Other",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Calf Press On Leg Press",
+    "Category": "Machine",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Calf Press On Seated Leg Press",
+    "Category": "Machine",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Chest Dip",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Chest Dip (Assisted)",
+    "Category": "Assisted Bodyweight",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Chest Fly",
+    "Category": "Dumbbell",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Chest Fly (Band)",
+    "Category": "Other",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Chest Fly (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Chest Press (Band)",
+    "Category": "Other",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Chest Press (Machine)",
+    "Category": "Machine",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Chin Up",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Chin Up (Assisted)",
+    "Category": "Assisted Bodyweight",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Clean (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Olympic",
+    "Instructions": ""
+  },
+  {
+    "Name": "Clean And Jerk (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Olympic",
+    "Instructions": ""
+  },
+  {
+    "Name": "Concentration Curl (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Cross Body Crunch",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Crunch",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Crunch (Machine)",
+    "Category": "Machine",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Crunch (Stability Ball)",
+    "Category": "Other",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Cycling",
+    "Category": "Cardio",
+    "Muscle": "Cardio",
+    "Instructions": ""
+  },
+  {
+    "Name": "Cycling (Indoor)",
+    "Category": "Cardio",
+    "Muscle": "Cardio",
+    "Instructions": ""
+  },
+  {
+    "Name": "Dead Hang",
+    "Category": "Duration",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Deadlift (Band)",
+    "Category": "Other",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Deadlift (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Deadlift (Smith Machine)",
+    "Category": "Other",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Deadlift High Pull (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Olympic",
+    "Instructions": ""
+  },
+  {
+    "Name": "Decline Bench Press (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Decline Bench Press (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Decline Bench Press (Smith Machine)",
+    "Category": "Other",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Decline Chest Press (Machine)",
+    "Category": "Machine",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Decline Crunch",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Decline Plank",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Deficit Deadlift (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Elliptical Machine",
+    "Category": "Machine",
+    "Muscle": "Cardio",
+    "Instructions": ""
+  },
+  {
+    "Name": "Face Pull (Cable)",
+    "Category": "Other",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Farmer's Walk",
+    "Category": "Other",
+    "Muscle": "Full Body",
+    "Instructions": ""
+  },
+  {
+    "Name": "Flat Knee Raise",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Flat Leg Raise",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Floor Press (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "French Press (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Front Raise (Band)",
+    "Category": "Other",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Front Raise (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Front Raise (Cable)",
+    "Category": "Other",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Front Raise (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Front Raise (Plate)",
+    "Category": "Other",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Front Squat (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Glute Ham Raise",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Glute Kickback (Machine)",
+    "Category": "Machine",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Goblet Squat (Kettlebell)",
+    "Category": "Other",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Good Morning (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Hack Squat",
+    "Category": "Machine",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Hack Squat (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Hammer Curl (Band)",
+    "Category": "Other",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Hammer Curl (Cable)",
+    "Category": "Other",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Hammer Curl (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Handstand Push Up",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Hang Clean (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Olympic",
+    "Instructions": ""
+  },
+  {
+    "Name": "Hang Snatch (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Olympic",
+    "Instructions": ""
+  },
+  {
+    "Name": "Hanging Knee Raise",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Hanging Leg Raise",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "High Knee Skips",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Hip Abductor (Machine)",
+    "Category": "Machine",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Hip Adductor (Machine)",
+    "Category": "Machine",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Hip Thrust (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Hip Thrust (Bodyweight)",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Hip Thrust (Machine)",
+    "Category": "Machine",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Incline Bench Press (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Incline Bench Press (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Incline Bench Press (Cable)",
+    "Category": "Other",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Incline Bench Press (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Incline Bench Press (Smith Machine)",
+    "Category": "Other",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Incline Chest Fly (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Incline Chest Press (Machine)",
+    "Category": "Machine",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Incline Curl (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Incline Row (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Inverted Row (Bodyweight)",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Iso-Lateral Chest Press (Machine)",
+    "Category": "Machine",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Iso-Lateral Row (Machine)",
+    "Category": "Machine",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Jackknife Sit Up",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Jump Rope",
+    "Category": "Other",
+    "Muscle": "Cardio",
+    "Instructions": ""
+  },
+  {
+    "Name": "Jump Shrug (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Olympic",
+    "Instructions": ""
+  },
+  {
+    "Name": "Jump Squat",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Jumping Jack",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Full Body",
+    "Instructions": ""
+  },
+  {
+    "Name": "Kettlebell Swing",
+    "Category": "Other",
+    "Muscle": "Full Body",
+    "Instructions": ""
+  },
+  {
+    "Name": "Kettlebell Turkish Get Up",
+    "Category": "Other",
+    "Muscle": "Full Body",
+    "Instructions": ""
+  },
+  {
+    "Name": "Kipping Pull Up",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Knee Raise (Captain's Chair)",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Kneeling Pulldown (Band)",
+    "Category": "Other",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Knees To Elbows",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Landmine Row",
+    "Category": "Barbell",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Lat Pulldown - Underhand (Band)",
+    "Category": "Other",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Lat Pulldown - Underhand (Cable)",
+    "Category": "Other",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Lat Pulldown - Wide Grip (Cable)",
+    "Category": "Other",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Lat Pulldown (Band)",
+    "Category": "Other",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Lat Pulldown (Cable)",
+    "Category": "Other",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Lat Pulldown (Machine)",
+    "Category": "Machine",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Lat Pulldown (Single Arm)",
+    "Category": "Other",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Lateral Box Jump",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Lateral Raise (Band)",
+    "Category": "Other",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Lateral Raise (Cable)",
+    "Category": "Other",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Lateral Raise (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Lateral Raise (Machine)",
+    "Category": "Machine",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Leg Extension (Machine)",
+    "Category": "Machine",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Leg Press",
+    "Category": "Machine",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "L-Sit",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Lunge (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Lunge (Bodyweight)",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Lunge (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Lying Leg Curl (Machine)",
+    "Category": "Machine",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Mountain Climber",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Full Body",
+    "Instructions": ""
+  },
+  {
+    "Name": "Muscle Up",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Full Body",
+    "Instructions": ""
+  },
+  {
+    "Name": "Oblique Crunch",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Overhead Press (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Overhead Press (Cable)",
+    "Category": "Other",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Overhead Press (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Overhead Press (Smith Machine)",
+    "Category": "Other",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Overhead Squat (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Pec Deck (Machine)",
+    "Category": "Machine",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Pendlay Row (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Pistol Squat",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Plank",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Power Clean (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Olympic",
+    "Instructions": ""
+  },
+  {
+    "Name": "Power Snatch (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Olympic",
+    "Instructions": ""
+  },
+  {
+    "Name": "Preacher Curl (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Preacher Curl (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Preacher Curl (Machine)",
+    "Category": "Machine",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Pull Up",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Push Press (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Push Press (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Push Up",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Push Up (Assisted)",
+    "Category": "Assisted Bodyweight",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Push Up (Bosu)",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Push Up (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Push Up (Smith Machine)",
+    "Category": "Other",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Rack Pull (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Renegade Row (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Reverse Crunch",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Reverse Fly (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Reverse Fly (Machine)",
+    "Category": "Machine",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Reverse Fly (Stability Ball)",
+    "Category": "Dumbbell",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Reverse Grip Curl (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Reverse Grip Curl (Cable)",
+    "Category": "Other",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Reverse Grip Pulldown (Cable)",
+    "Category": "Other",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Reverse Hyperextension (Machine)",
+    "Category": "Machine",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Reverse Lunge (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Reverse Lunge (Bodyweight)",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Reverse Lunge (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Reverse Plank",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Romanian Deadlift (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Row (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Row (Machine)",
+    "Category": "Machine",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Russian Twist",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Seated Curl (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Seated Overhead Press (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Seated Overhead Press (Machine)",
+    "Category": "Machine",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Seated Row (Cable)",
+    "Category": "Other",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Seated Row (Cable)",
+    "Category": "Other",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Seated Row (Machine)",
+    "Category": "Machine",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Seated Shoulder Press (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Seated Shoulder Press (Cable)",
+    "Category": "Other",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Seated Shoulder Press (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Shoulder Fly (Band)",
+    "Category": "Other",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Shoulder Fly (Cable)",
+    "Category": "Other",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Shoulder Fly (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Shoulder Press (Machine)",
+    "Category": "Machine",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Shoulder Press (Machine)",
+    "Category": "Machine",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Side Plank",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Single Arm Bench Press (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Single Arm Curl (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Single Leg Deadlift (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Single Leg Press (Machine)",
+    "Category": "Machine",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Single Leg Press (Machine)",
+    "Category": "Machine",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Sit Up",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Sit Up (Bosu)",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Skull Crusher (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Skull Crusher (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Snatch (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Olympic",
+    "Instructions": ""
+  },
+  {
+    "Name": "Snatch Grip Deadlift (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Split Jerk (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Olympic",
+    "Instructions": ""
+  },
+  {
+    "Name": "Squat (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Squat (Bodyweight)",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Squat (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Squat Jump",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Standing Overhead Press (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Standing Overhead Press (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Standing Press (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Stationary Bike",
+    "Category": "Cardio",
+    "Muscle": "Cardio",
+    "Instructions": ""
+  },
+  {
+    "Name": "Stationary Lunge (Bodyweight)",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Stationary Lunge (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Step Up (Bodyweight)",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Step Up (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Straight Arm Pulldown (Band)",
+    "Category": "Other",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Straight Arm Pulldown (Cable)",
+    "Category": "Other",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Straight Leg Deadlift (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Straight Leg Deadlift (Smith Machine)",
+    "Category": "Other",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Suitcase Carry (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Full Body",
+    "Instructions": ""
+  },
+  {
+    "Name": "Sumo Deadlift (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Sumo Deadlift High Pull (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Olympic",
+    "Instructions": ""
+  },
+  {
+    "Name": "Superman",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Superman Plank",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Swimming",
+    "Category": "Cardio",
+    "Muscle": "Cardio",
+    "Instructions": ""
+  },
+  {
+    "Name": "T Bar Row (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Thruster (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Full Body",
+    "Instructions": ""
+  },
+  {
+    "Name": "Thruster (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Full Body",
+    "Instructions": ""
+  },
+  {
+    "Name": "Tire Flip",
+    "Category": "Other",
+    "Muscle": "Full Body",
+    "Instructions": ""
+  },
+  {
+    "Name": "Toes To Bar",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Core",
+    "Instructions": ""
+  },
+  {
+    "Name": "Tricep Dip",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Tricep Kickback (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Tricep Press (Band)",
+    "Category": "Other",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Tricep Press (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Tricep Press (Cable)",
+    "Category": "Other",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Tricep Press (Machine)",
+    "Category": "Machine",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Tuck Jump",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Upright Row (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Upright Row (Cable)",
+    "Category": "Other",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Upright Row (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "V Bar Pulldown (Cable)",
+    "Category": "Other",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Walking Lunge (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Walking Lunge (Bodyweight)",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Walking Lunge (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Legs",
+    "Instructions": ""
+  },
+  {
+    "Name": "Weighted Ball Slam",
+    "Category": "Other",
+    "Muscle": "Full Body",
+    "Instructions": ""
+  },
+  {
+    "Name": "Weighted Jump Rope",
+    "Category": "Weighted Bodyweight",
+    "Muscle": "Cardio",
+    "Instructions": ""
+  },
+  {
+    "Name": "Wide Grip Bench Press (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Chest",
+    "Instructions": ""
+  },
+  {
+    "Name": "Wide Grip Chin Up (Assisted)",
+    "Category": "Assisted Bodyweight",
+    "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Wide Grip Overhead Press (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Wide Grip Overhead Press (Smith Machine)",
+    "Category": "Other",
+    "Muscle": "Shoulders",
+    "Instructions": ""
+  },
+  {
+    "Name": "Wrist Curl (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Wrist Curl (Dumbbell)",
+    "Category": "Dumbbell",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Wrist Curl (Machine)",
+    "Category": "Machine",
+    "Muscle": "Arms",
+    "Instructions": ""
+  },
+  {
+    "Name": "Zercher Squat (Barbell)",
+    "Category": "Barbell",
+    "Muscle": "Legs",
+    "Instructions": ""
+  }
+]

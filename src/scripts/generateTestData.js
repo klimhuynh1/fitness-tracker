@@ -1,8 +1,8 @@
 require("dotenv").config();
 const mongoose = require("mongoose");
-const User = require("./models/User");
-const Exercise = require("./models/Exercise");
-const Workout = require("./models/Workout");
+const User = require("../models/User");
+const Exercise = require("../models/Exercise");
+const Workout = require("../models/Workout");
 
 const mongoURI = process.env.MONGO_URI;
 
@@ -30,14 +30,14 @@ mongoose
     const exercise1 = new Exercise({
       name: "Barbell Squat",
       category: "barbell",
-      bodyPart: "legs",
-      description: "A basic barbell squat exercise",
+      muscle: "legs",
+      instructions: "A basic barbell squat exercise",
     });
     const exercise2 = new Exercise({
       name: "Running",
       category: "cardio",
-      bodyPart: "cardio",
-      description: "Cardio exercise running",
+      muscle: "cardio",
+      instructions: "Cardio exercise running",
     });
     await exercise1.save();
     await exercise2.save();

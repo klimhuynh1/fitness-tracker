@@ -21,7 +21,7 @@ const exerciseSchema = new mongoose.Schema(
       ],
       required: true,
     },
-    bodyPart: {
+    muscle: {
       type: String,
       enum: [
         "none",
@@ -38,7 +38,7 @@ const exerciseSchema = new mongoose.Schema(
       ],
       required: true,
     },
-    description: {
+    instructions: {
       type: String,
     },
   },
