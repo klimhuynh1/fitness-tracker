@@ -24,14 +24,12 @@ const exerciseSchema = new mongoose.Schema(
     muscle: {
       type: String,
       enum: [
-        "none",
         "core",
         "arms",
         "back",
         "chest",
         "legs",
         "shoulders",
-        "other",
         "olympic",
         "full body",
         "cardio",

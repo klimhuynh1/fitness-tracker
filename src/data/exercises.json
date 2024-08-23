@@ -996,12 +996,6 @@
     "Instructions": ""
   },
   {
-    "Name": "Push Up (Bosu)",
-    "Category": "Weighted Bodyweight",
-    "Muscle": "Chest",
-    "Instructions": ""
-  },
-  {
     "Name": "Push Up (Dumbbell)",
     "Category": "Dumbbell",
     "Muscle": "Chest",
@@ -1113,6 +1107,18 @@
     "Name": "Row (Machine)",
     "Category": "Machine",
     "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Running",
+    "Category": "Cardio",
+    "Muscle": "Cardio",
+    "Instructions": ""
+  },
+  {
+    "Name": "Running (Treadmill)",
+    "Category": "Cardio",
+    "Muscle": "Cardio",
     "Instructions": ""
   },
   {
@@ -1380,12 +1386,6 @@
     "Instructions": ""
   },
   {
-    "Name": "Suitcase Carry (Dumbbell)",
-    "Category": "Dumbbell",
-    "Muscle": "Full Body",
-    "Instructions": ""
-  },
-  {
     "Name": "Sumo Deadlift (Barbell)",
     "Category": "Barbell",
     "Muscle": "Legs",
@@ -1399,12 +1399,6 @@
   },
   {
     "Name": "Superman",
-    "Category": "Weighted Bodyweight",
-    "Muscle": "Core",
-    "Instructions": ""
-  },
-  {
-    "Name": "Superman Plank",
     "Category": "Weighted Bodyweight",
     "Muscle": "Core",
     "Instructions": ""
@@ -1509,6 +1503,18 @@
     "Name": "V Bar Pulldown (Cable)",
     "Category": "Other",
     "Muscle": "Back",
+    "Instructions": ""
+  },
+  {
+    "Name": "Walking",
+    "Category": "Cardio",
+    "Muscle": "Cardio",
+    "Instructions": ""
+  },
+  {
+    "Name": "Walking (Treadmill)",
+    "Category": "Cardio",
+    "Muscle": "Cardio",
     "Instructions": ""
   },
   {
