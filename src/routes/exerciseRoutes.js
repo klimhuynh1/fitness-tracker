@@ -33,7 +33,7 @@ router.get("/:id", async (req, res) => {
     if (!exercise) {
       return res.status(404).json({ error: "exercise not found" });
     }
-    res.status(200).json(Exercise);
+    res.status(200).json(exercise);
   } catch (err) {
     res.status(400).json({ error: err.message });
   }
