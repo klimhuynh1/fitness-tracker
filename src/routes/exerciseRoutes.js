@@ -24,4 +24,62 @@ router.get("/", async (req, res) => {
   }
 });
 
+// Get a single exercise
+router.get("/:id", async (req, res) => {
+  try {
+    const exerciseId = req.params.id;
+    const exercise = await Exercise.findById(exerciseId);
+
+    if (!exercise) {
+      return res.status(404).json({ error: "exercise not found" });
+    }
+    res.status(200).json(Exercise);
+  } catch (err) {
+    res.status(400).json({ error: err.message });
+  }
+});
+
+// Update exercise
+router.patch("/:id", async (req, res) => {
+  try {
+    const exerciseId = req.params.id;
+    const updates = req.body;
+
+    const updatedExercise = await Exercise.findByIdAndUpdate(
+      exerciseId,
+      updates,
+      {
+        new: true,
+        runValidators: true,
+      }
+    );
+
+    if (!updatedExercise) {
+      return res.status(404).json({ error: "Exercise not found" });
+    }
+
+    res
+      .status(200)
+      .json({ message: "Exercise updated successfully", updatedExercise });
+  } catch (err) {
+    res.status(400).json({ error: err.message });
+  }
+});
+
+// Delete exercise
+router.delete("/:id", async (req, res) => {
+  try {
+    const exerciseId = req.params.id;
+
+    const deletedExercise = await Exercise.findByIdAndDelete(exerciseId);
+
+    if (!deletedExercise) {
+      return res.status(404).json({ error: "Exercise not found" });
+    }
+    res.status(200).json({ message: "Exercise deleted sucessfully" });
+  } catch (err) {
+    res.status(400).json({ error: err.message });
+  }
+});
+
 module.exports = router;
