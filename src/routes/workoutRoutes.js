@@ -3,6 +3,24 @@ const router = express.Router();
 const Workout = require("../models/Workout");
 const Exercise = require("../models/Exercise");
 
+// Middleware function to validate exercise IDs inthe request
+const validateExerciseIds = async (req, res, next) => {
+  const { exercises } = req.body;
+
+  if (exercises) {
+    for (const exercise of exercises) {
+      const validExercise = await Exercise.findById(exercise.exerciseId);
+      if (!validExercise) {
+        return res
+          .status(400)
+          .json({ error: `Exercise with ID ${exercise.exerciseId} not found` });
+      }
+    }
+  }
+
+  next();
+};
+
 // Create a new workout
 router.post("/", async (req, res) => {
   try {
@@ -53,8 +71,28 @@ router.get("/:id", async (req, res) => {
   }
 });
 
-// TODO: Update exercise
-// TODO: Delete exercise
+// Update exercise
+router.patch("/:id", validateExerciseIds, async (req, res) => {
+  try {
+    const workoutId = req.params.id;
+    const updates = req.body;
+
+    const updatedWorkout = await Workout.findByIdAndUpdate(workoutId, updates, {
+      new: true,
+      runValidators: true,
+    });
+
+    if (!updatedWorkout) {
+      return res.status(400).json({ error: "Workout not found" });
+    }
+    res
+      .status(200)
+      .json({ message: "Workout updated successfully", updatedWorkout });
+  } catch (err) {
+    res.status(400).json({ error: err.message });
+  }
+});
+
 // Delete exercise
 router.delete("/:id", async (req, res) => {
   try {
