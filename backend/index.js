@@ -4,6 +4,7 @@ const mongoose = require("mongoose");
 const userRoutes = require("./routes/userRoutes");
 const workoutRoutes = require("./routes/workoutRoutes");
 const exerciseRoutes = require("./routes/exerciseRoutes");
+const cors = require("cors");
 
 // Get MongoDB URI from environment variables
 const mongoURI = process.env.MONGO_URI;
@@ -13,6 +14,9 @@ const app = express();
 
 // Middleware
 app.use(express.json()); // For parsing application/json
+
+// Middleware for handling CORS policy
+app.use(cors());
 
 // Routes
 app.use("/api/users", userRoutes);
