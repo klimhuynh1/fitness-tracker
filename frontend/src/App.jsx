@@ -9,12 +9,12 @@ import History from "./components/History";
 function App() {
   return (
     <div className="App">
-      <Login />
+      {/* <Login /> */}
       <Register />
-      <Exercises />
+      {/* <Exercises />
       <Search />
       <Modal />
-      <History />
+      <History /> */}
     </div>
   );
 }
