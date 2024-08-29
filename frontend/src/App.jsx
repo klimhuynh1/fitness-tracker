@@ -1,10 +1,20 @@
 import React from "react";
-import LoginForm from "./LoginForm"; // Adjust the import path if necessary
+import Login from "./components/Login";
+import Register from "./components/Register";
+import Exercises from "./components/Exercises";
+import Search from "./components/Search";
+import Modal from "./components/Modal";
+import History from "./components/History";
 
 function App() {
   return (
     <div className="App">
-      <LoginForm />
+      <Login />
+      <Register />
+      <Exercises />
+      <Search />
+      <Modal />
+      <History />
     </div>
   );
 }
