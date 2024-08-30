@@ -1,3 +1,5 @@
+const Exercise = require("../models/Exercise");
+
 // Middleware function to validate exercise IDs inthe request
 const validateExerciseIds = async (req, res, next) => {
   const { exercises } = req.body;
