@@ -1,9 +1,10 @@
 const express = require("express");
 const router = express.Router();
 const User = require("../models/User");
+const checkUniqueUser = require("../middleware/checkUniqueUser");
 
 // Create a new user
-router.post("/", async (req, res) => {
+router.post("/", checkUniqueUser, async (req, res) => {
   try {
     const { username, email, password } = req.body;
     const newUser = new User({ username, email, password });
