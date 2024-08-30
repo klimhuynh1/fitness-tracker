@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function Login() {
   const [identifier, setidentifier] = useState("");
@@ -22,20 +22,18 @@ function Login() {
 
       if (response.ok) {
         setMessage(result.message);
-        setError("");
       } else {
         setError(result.message);
-        setMessage("");
       }
-    } catch (error) {
-      setError("An error occurred");
+    } catch (err) {
+      setError(`An error occurred: ${err.message}`);
       setMessage("");
     }
   };
 
   return (
     <div>
-      <h1>Login</h1>
+      <h2>Login</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <label>

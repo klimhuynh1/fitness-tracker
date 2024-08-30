@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
+
 const Register = () => {
   // State to hold form data
   const [formData, setFormData] = useState({
@@ -54,7 +55,7 @@ const Register = () => {
 
   return (
     <div>
-      <h1>Register</h1>
+      <h2>Register</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="username">Username:</label>
