@@ -34,32 +34,37 @@ const Exercises = () => {
   return (
     <div>
       <h2>Exercises</h2>
-      {exercises.map((singleExercise) => {
-        const {
-          _id: id,
-          name: exerciseName,
-          category,
-          muscle,
-          instructions,
-        } = singleExercise;
-        return (
-          <article key={id} className="single-exercise">
-            <img
-              src="/images/running.png"
-              alt={exerciseName}
-              className="img"
-              onClick={() => selectExercise(id)}
-            />
-            {/* Render exercise details */}
-            <div>
-              <h2>{exerciseName}</h2>
-              <p>Category: {category}</p>
-              <p>Muscle: {muscle}</p>
-              <p>Instructions: {instructions}</p>
-            </div>
-          </article>
-        );
-      })}
+      <section className="section-center">
+        {exercises.map((singleExercise) => {
+          const {
+            _id: id,
+            name: exerciseName,
+            category,
+            muscle,
+            instructions,
+          } = singleExercise;
+          return (
+            <article key={id} className="single-exercise">
+              <img
+                src="/images/running.png"
+                alt={exerciseName}
+                className="img"
+                onClick={() => selectExercise(id)}
+              />
+              {/* Render exercise details */}
+              <footer>
+                <h5>{exerciseName}</h5>
+              </footer>
+              {/* <div>
+                <h2>{exerciseName}</h2>
+                <p>Category: {category}</p>
+                <p>Muscle: {muscle}</p>
+                <p>Instructions: {instructions}</p>
+              </div> */}
+            </article>
+          );
+        })}
+      </section>
     </div>
   );
 };

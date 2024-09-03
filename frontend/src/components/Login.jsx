@@ -10,7 +10,6 @@ function Login() {
   // Use UserContext to store the logged-in user
   const { login } = useContext(UserContext);
 
-
   const handleSubmit = async (event) => {
     event.preventDefault();
 
@@ -28,21 +27,18 @@ function Login() {
       if (response.ok) {
         setMessage(result.message);
         setError(""); // Clear error messages
-
         // Store the user in context
-        console.log(result.user);
         login(result.user);
-        setPassword(""); //Clear password after successful login
       } else {
         setError(result.message);
         setMessage(""); // Clear messages
-        setPassword(""); 
       }
     } catch (err) {
       setError(`An error occurred: ${err.message}`);
       setMessage(""); // Clear messages
-      setPassword(""); 
     }
+
+    setPassword(""); //Clear password
   };
 
   return (

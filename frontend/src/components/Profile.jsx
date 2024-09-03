@@ -1,5 +1,7 @@
 import { useContext } from "react";
 import { UserContext } from "../context/UserContext";
+import Search from "./Search";
+import Exercises from "./Exercises";
 
 function Profile() {
   const { user, logout } = useContext(UserContext);
@@ -10,6 +12,8 @@ function Profile() {
         <>
           <h2>Welcome {user.username}!</h2>
           <button onClick={logout}>Logout</button>
+          <Search />
+          <Exercises />
         </>
       ) : (
         <h2>No user is logged in</h2>
