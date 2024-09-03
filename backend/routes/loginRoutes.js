@@ -18,15 +18,27 @@ router.post("/", async (req, res) => {
       user = await User.findOne({ username: identifier });
     }
 
+    // If user is not found, return an error
+    if (!user) {
+      return res.status(401).json({ message: "Invalid username or password" });
+    }
+
     // Check if the password is correct
     const isMatch = await user.comparePassword(password);
 
-    if (!user || !isMatch) {
+    if (!isMatch) {
       return res.status(401).json({ message: "Invalid username or password" });
     }
 
     // Successful login
-    res.status(200).json({ message: "Login successful", user });
+    res.status(200).json({
+      message: "Login successful",
+      user: {
+        id: user._id,
+        username: user.username,
+        email: user.email,
+      },
+    });
   } catch (error) {
     res.status(500).json({ message: "Server error" });
   }
