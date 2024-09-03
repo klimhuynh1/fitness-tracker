@@ -1,6 +1,5 @@
 const express = require("express");
 const router = express.Router();
-const bcrypt = require("bcrypt");
 const User = require("../models/User");
 const validator = require("validator");
 
@@ -27,7 +26,7 @@ router.post("/", async (req, res) => {
     }
 
     // Successful login
-    res.status(200).json({ message: "Login successful" });
+    res.status(200).json({ message: "Login successful", user });
   } catch (error) {
     res.status(500).json({ message: "Server error" });
   }
