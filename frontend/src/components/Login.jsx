@@ -1,4 +1,5 @@
 import { useState, useContext } from "react";
+import axios from "axios";
 import { UserContext } from "../context/UserContext";
 
 function Login() {
@@ -6,39 +7,47 @@ function Login() {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [message, setMessage] = useState("");
-
   // Use UserContext to store the logged-in user
   const { login } = useContext(UserContext);
+  const loginUrl = "http://localhost:3000/api/login";
 
   const handleSubmit = async (event) => {
     event.preventDefault();
 
     try {
-      const response = await fetch("http://localhost:3000/api/login", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ identifier, password }),
+      const response = await axios.post(loginUrl, {
+        identifier,
+        password,
       });
 
-      const result = await response.json();
-
-      if (response.ok) {
-        setMessage(result.message);
+      if (response.status === 200) {
+        setMessage(response.data.message);
         setError(""); // Clear error messages
         // Store the user in context
-        login(result.user);
+        login(response.data.user);
       } else {
-        setError(result.message);
+        console.log(response);
+        setError(response.data.message);
         setMessage(""); // Clear messages
       }
     } catch (err) {
-      setError(`An error occurred: ${err.message}`);
-      setMessage(""); // Clear messages
+      if (err.response) {
+        // The request was made and the server responded with a status code
+        // that falls out of the range of 2xx
+        setError(err.response.data.message || "An error occurred");
+        setMessage(""); // Clear messages
+      } else if (err.request) {
+        // The request was made but no response was received
+        setError("No response received from the server");
+        setMessage(""); // Clear messages
+      } else {
+        // Something happened in setting up the request that triggered an Error
+        setError(`Error: ${err.message}`);
+        setMessage(""); // Clear messages
+      }
+    } finally {
+      setPassword(""); //Clear password
     }
-
-    setPassword(""); //Clear password
   };
 
   return (
