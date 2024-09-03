@@ -10,7 +10,12 @@ import Profile from "./components/Profile";
 function App() {
   const { user } = useContext(UserContext);
 
-  return <div className="App">{user ? <Profile /> : <Login />}</div>;
+  return (
+    <div className="App">
+      {user ? <Profile /> : <Login />}
+      <Exercises />
+    </div>
+  );
 }
 
 export default App;
