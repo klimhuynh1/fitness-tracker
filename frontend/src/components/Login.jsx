@@ -1,10 +1,15 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
+import { UserContext } from "../context/UserContext";
 
 function Login() {
-  const [identifier, setidentifier] = useState("");
+  const [identifier, setIdentifier] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const [message, setMessage] = useState("");
+
+  // Use UserContext to store the logged-in user
+  const { login } = useContext(UserContext);
+
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -22,12 +27,21 @@ function Login() {
 
       if (response.ok) {
         setMessage(result.message);
+        setError(""); // Clear error messages
+
+        // Store the user in context
+        console.log(result.user);
+        login(result.user);
+        setPassword(""); //Clear password after successful login
       } else {
         setError(result.message);
+        setMessage(""); // Clear messages
+        setPassword(""); 
       }
     } catch (err) {
       setError(`An error occurred: ${err.message}`);
-      setMessage("");
+      setMessage(""); // Clear messages
+      setPassword(""); 
     }
   };
 
@@ -39,9 +53,9 @@ function Login() {
           <label>
             Username/Email:
             <input
-              type="identifier"
+              type="text"
               value={identifier}
-              onChange={(e) => setidentifier(e.target.value)}
+              onChange={(e) => setIdentifier(e.target.value)}
               required
             />
           </label>

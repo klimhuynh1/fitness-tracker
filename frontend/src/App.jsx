@@ -2,18 +2,15 @@ import Exercises from "./components/Exercises";
 import Search from "./components/Search";
 import Modal from "./components/Modal";
 import History from "./components/History";
-import Auth from "./components/Auth";
+import { useContext } from "react";
+import { UserContext } from "./context/UserContext";
+import Login from "./components/Auth";
+import Profile from "./components/Profile";
 
 function App() {
-  return (
-    <div className="App">
-      <Auth />
-      {/* <Exercises />
-      <Search />
-      <Modal />
-      <History /> */}
-    </div>
-  );
+  const { user } = useContext(UserContext);
+
+  return <div className="App">{user ? <Profile /> : <Login />}</div>;
 }
 
 export default App;
