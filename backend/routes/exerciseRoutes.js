@@ -14,24 +14,32 @@ router.post("/", async (req, res) => {
   }
 });
 
-// Get all exercises
+// Get all exercises with optional search
 router.get("/", async (req, res) => {
+  const { search } = req.query;
+
   try {
-    const exercises = await Exercise.find();
+    let query = {};
+
+    if (search) {
+      // Search exercise by name (case-insensitive)
+      query.name = { $regex: new RegExp(search, "i") };
+    }
+    const exercises = await Exercise.find(query);
     res.status(200).json(exercises);
   } catch (err) {
     res.status(400).json({ error: err.message });
   }
 });
 
-// Get a single exercise
+// Get a single exercise by id
 router.get("/:id", async (req, res) => {
   try {
     const exerciseId = req.params.id;
     const exercise = await Exercise.findById(exerciseId);
 
     if (!exercise) {
-      return res.status(404).json({ error: "exercise not found" });
+      return res.status(404).json({ error: "Exercise not found" });
     }
     res.status(200).json(exercise);
   } catch (err) {
