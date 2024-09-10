@@ -9,6 +9,7 @@ export const ExerciseProvider = ({ children }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [error, setError] = useState(null);
   const [selectedExercise, setSelectedExercise] = useState(null);
+  const [showModal, setShowModal] = useState(false);
 
   const allExercisesUrl = "http://localhost:3000/api/exercises";
 
@@ -30,6 +31,11 @@ export const ExerciseProvider = ({ children }) => {
   const selectExercise = (idExercise) => {
     const exercise = exercises.find((exercise) => exercise._id === idExercise);
     setSelectedExercise(exercise);
+    setShowModal(true);
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
   };
 
   // Fetch all exercises
@@ -37,7 +43,7 @@ export const ExerciseProvider = ({ children }) => {
     fetchExercises(allExercisesUrl);
   }, []);
 
-  // Fetch exercises that match search term
+  // Fetch exercises that contain search term
   useEffect(() => {
     if (!searchTerm) return;
     fetchExercises(`${allExercisesUrl}?search=${searchTerm}`);
@@ -51,6 +57,8 @@ export const ExerciseProvider = ({ children }) => {
         error,
         searchTerm,
         setSearchTerm,
+        showModal,
+        closeModal,
         selectedExercise,
         selectExercise,
       }}
