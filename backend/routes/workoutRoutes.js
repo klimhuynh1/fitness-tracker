@@ -33,7 +33,28 @@ router.post("/", async (req, res) => {
 router.get("/", async (req, res) => {
   try {
     const workouts = await Workout.find().populate("userId");
-    res.status(200).json(workouts);
+    if (workouts.length < 1) {
+      return res.status(404).json({ message: "No workouts found" });
+    } else {
+      res.status(200).json(workouts);
+    }
+  } catch (err) {
+    res.status(400).json({ error: err.message });
+  }
+});
+
+// Get all workouts for a specific user
+router.get("/user/:userId", async (req, res) => {
+  try {
+    const { userId } = req.params;
+    const workouts = await Workout.find({ userId }).populate("userId");
+    if (workouts.length < 1) {
+      return res
+        .status(404)
+        .json({ message: "No workouts found for this user" });
+    } else {
+      return res.status(200).json(workouts);
+    }
   } catch (err) {
     res.status(400).json({ error: err.message });
   }
