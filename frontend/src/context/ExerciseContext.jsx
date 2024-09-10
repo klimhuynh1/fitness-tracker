@@ -32,13 +32,16 @@ export const ExerciseProvider = ({ children }) => {
     setSelectedExercise(exercise);
   };
 
-  // Fetch exercises based on search term or default to all exercises
+  // Fetch all exercises
   useEffect(() => {
-    const url = searchTerm
-      ? `${allExercisesUrl}?search=${searchTerm}`
-      : allExercisesUrl;
-    fetchExercises(url);
+    fetchExercises(allExercisesUrl);
   }, []);
+
+  // Fetch exercises that match search term
+  useEffect(() => {
+    if (!searchTerm) return;
+    fetchExercises(`${allExercisesUrl}?search=${searchTerm}`);
+  }, [searchTerm]);
 
   return (
     <ExerciseContext.Provider
