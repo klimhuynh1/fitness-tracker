@@ -1,35 +1,31 @@
-import { useState, useEffect } from "react";
-import axios from "axios";
+import { useContext } from "react";
+import { ExerciseContext } from "../context/ExerciseContext";
 
 const Exercises = () => {
-  const [exercises, setExercises] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-  const [selectedExercise, setSelectedExercise] = useState(null);
+  const { exercises, loading, error, selectExercise } =
+    useContext(ExerciseContext);
 
-  const allExercisesUrl = "http://localhost:3000/api/exercises";
+  if (loading) {
+    return (
+      <section className="section">
+        <h4>Loading...</h4>
+      </section>
+    );
+  }
 
-  const selectExercise = (idExercise) => {
-    const exercise = exercises.find((exercise) => exercise._id === idExercise);
-    setSelectedExercise(exercise);
-  };
-
-  useEffect(() => {
-    const fetchexercises = async () => {
-      try {
-        const response = await axios.get(allExercisesUrl);
-        setExercises(response.data);
-      } catch (error) {
-        setError(error);
-      } finally {
-        setLoading(false);
-      }
-    };
-    fetchexercises();
-  }, []);
-
-  if (loading) return <h4>Loading...</h4>;
-  if (error) return <h4>Error: {error.message}</h4>;
+  if (exercises.length < 1) {
+    return (
+      <section className="section">
+        <h4>No exercises matched your search term. Please try again.</h4>
+      </section>
+    );
+  }
+  if (error)
+    return (
+      <section className="section">
+        <h4>Error: {error.message}</h4>
+      </section>
+    );
 
   return (
     <div>
