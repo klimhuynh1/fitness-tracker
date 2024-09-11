@@ -1,14 +1,13 @@
-require("dotenv").config();
+const path = require("path");
+require("dotenv").config({ path: path.resolve(__dirname, "../.env") });
 const mongoose = require("mongoose");
 const User = require("../models/User");
 const Exercise = require("../models/Exercise");
 const Workout = require("../models/Workout");
 
-const mongoURI = process.env.MONGO_URI;
-
 // Connect to MongoDB
 mongoose
-  .connect(mongoURI)
+  .connect(process.env.MONGO_URI)
   .then(async () => {
     console.log("Database connected");
 
@@ -40,12 +39,12 @@ mongoose
     const user1 = new User({
       username: "test_user1",
       email: "test_user1@example.com",
-      password: "password123",
+      password: "wg3bebnj%2Qe$Rd@",
     });
     const user2 = new User({
       username: "test_user2",
       email: "test_user2@example.com",
-      password: "password123",
+      password: "a@dXAmPg8hhd&NSd",
     });
     savedUser1 = await createUser(user1);
     savedUser2 = await createUser(user2);
@@ -119,7 +118,7 @@ mongoose
     await workout1.save();
 
     const workout2 = new Workout({
-      userId: savedUser2._id,
+      userId: savedUser1._id,
       date: new Date(),
       notes: "Intense workout",
       exercises: [
