@@ -32,7 +32,10 @@ router.post("/", async (req, res) => {
 // Get all workout
 router.get("/", async (req, res) => {
   try {
-    const workouts = await Workout.find().populate("userId");
+    const workouts = await Workout.find().populate({
+      path: "userId",
+      select: "_id",
+    });
     if (workouts.length < 1) {
       return res.status(404).json({ message: "No workouts found" });
     } else {
@@ -47,7 +50,10 @@ router.get("/", async (req, res) => {
 router.get("/user/:userId", async (req, res) => {
   try {
     const { userId } = req.params;
-    const workouts = await Workout.find({ userId }).populate("userId");
+    const workouts = await Workout.find({ userId }).populate({
+      path: "userId",
+      select: "_id",
+    });
     if (workouts.length < 1) {
       return res
         .status(404)
