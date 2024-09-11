@@ -1,14 +1,11 @@
-require("dotenv").config();
+const path = require("path");
+require("dotenv").config({ path: path.resolve(__dirname, "../.env") });
 const mongoose = require("mongoose");
 const fs = require("fs");
-const path = require("path");
 const Exercise = require("../models/Exercise");
 
-// Get MongoDB URI from environment variables
-const mongoURI = process.env.MONGO_URI;
-
 mongoose
-  .connect(mongoURI)
+  .connect(process.env.MONGO_URI)
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.error("Failed to connect to MongoDB:", err));
 
