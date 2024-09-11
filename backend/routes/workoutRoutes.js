@@ -80,7 +80,15 @@ router.get("/user/:userId", async (req, res) => {
 router.get("/:id", async (req, res) => {
   try {
     const workoutId = req.params.id;
-    const workout = await Workout.findById(workoutId).populate("userId");
+    const workout = await Workout.findById(workoutId)
+      .populate({
+        path: "userId",
+        select: "_id",
+      })
+      .populate({
+        path: "exercises.exerciseId",
+        select: "_id name",
+      });
 
     if (!workout) {
       return res.status(404).json({ error: "workout not found" });
